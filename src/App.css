@@ -1,8 +1,36 @@
 .app {
+  position: relative;
   max-width: 720px;
   margin: 0 auto;
   padding: 4rem 1.5rem;
   text-align: center;
+}
+
+.lang-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #999;
+  padding: 0.25rem 0.4rem;
+}
+
+.lang-btn.active {
+  color: #213547;
+  font-weight: 600;
+}
+
+.lang-divider {
+  color: #ccc;
 }
 
 .app h1 {
