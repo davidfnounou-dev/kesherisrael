@@ -1,12 +1,38 @@
+import { useState } from 'react'
 import { donationInfo } from '../donationInfo'
 
 function Donate({ lang, t }) {
+  const [copied, setCopied] = useState(null) // 'yappy' | 'ach' | null
+
   const proofMessage =
     lang === 'en'
       ? "Hi! I just donated to Kesher Israel and I'm attaching my proof of payment."
       : '¡Hola! Acabo de donar a Kesher Israel y adjunto mi comprobante de pago.'
 
   const whatsappUrl = `https://wa.me/${donationInfo.whatsappNumber}?text=${encodeURIComponent(proofMessage)}`
+
+  const achText = [
+    `${t.donateAchBankField}: ${donationInfo.bank}`,
+    `${t.donateAchTypeField}: ${donationInfo.accountType}`,
+    `${t.donateAchNumberField}: ${donationInfo.accountNumber}`,
+    `${t.donateAchHolderField}: ${donationInfo.accountHolder}`,
+  ].join('\n')
+
+  const copyToClipboard = async (text, key) => {
+    try {
+      await navigator.clipboard.writeText(text)
+    } catch (err) {
+      // Fallback for browsers without clipboard permission
+      const textarea = document.createElement('textarea')
+      textarea.value = text
+      document.body.appendChild(textarea)
+      textarea.select()
+      document.execCommand('copy')
+      document.body.removeChild(textarea)
+    }
+    setCopied(key)
+    setTimeout(() => setCopied(null), 2000)
+  }
 
   return (
     <section className="donate" id="donar">
@@ -19,6 +45,13 @@ function Donate({ lang, t }) {
           <img className="donate-qr-image" src="/yappy-qr.png" alt="Código QR de Yappy" />
           <p className="donate-value">{donationInfo.yappyPhone}</p>
           <p className="donate-instructions">{t.donateYappyInstructions}</p>
+          <button
+            type="button"
+            className="btn btn-copy"
+            onClick={() => copyToClipboard(donationInfo.yappyPhone, 'yappy')}
+          >
+            {copied === 'yappy' ? t.donateCopied : t.donateCopyPhone}
+          </button>
         </div>
 
         <div className="donate-card">
@@ -41,6 +74,9 @@ function Donate({ lang, t }) {
               <dd>{donationInfo.accountHolder}</dd>
             </div>
           </dl>
+          <button type="button" className="btn btn-copy" onClick={() => copyToClipboard(achText, 'ach')}>
+            {copied === 'ach' ? t.donateCopied : t.donateCopyAch}
+          </button>
         </div>
       </div>
 

@@ -56,6 +56,9 @@ export const translations = {
     donateProofTitle: 'Already donated?',
     donateProofText: 'Send us your proof of payment so we can confirm it and send you a thank-you receipt.',
     donateProofButton: 'Send proof via WhatsApp',
+    donateCopyPhone: 'Copy Yappy number',
+    donateCopyAch: 'Copy bank details',
+    donateCopied: 'Copied ✓',
   },
   es: {
     title: 'Kesher Israel',
@@ -111,6 +114,9 @@ export const translations = {
     donateProofTitle: '¿Ya donaste?',
     donateProofText: 'Envíanos tu comprobante de pago para confirmarlo y mandarte un agradecimiento.',
     donateProofButton: 'Enviar comprobante por WhatsApp',
+    donateCopyPhone: 'Copiar número de Yappy',
+    donateCopyAch: 'Copiar datos bancarios',
+    donateCopied: 'Copiado ✓',
   },
 }
 
