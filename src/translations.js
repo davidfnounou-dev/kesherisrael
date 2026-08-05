@@ -70,11 +70,10 @@ export const destinationCountry = {
   flag: '🇮🇱',
 }
 
-// Placeholder figures — replace with real numbers when available.
 export const stats = {
   years: '3+',
   projects: '15+',
   countries: `${donorCountries.length}+`,
-  raised: '—', // TODO: replace with real total once provided
-  helped: '—', // TODO: replace with real total once provided
+  raised: '$150,000+',
+  helped: '10,000+',
 }
