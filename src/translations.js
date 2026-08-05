@@ -25,6 +25,21 @@ export const translations = {
     statCountriesLabel: 'Donor countries',
     statRaisedLabel: 'Raised & delivered',
     statHelpedLabel: 'People helped',
+
+    // Campaign / countdown
+    campaignEyebrow: '3rd anniversary special',
+    campaignTitle: 'A Sefer Torah for a religious army base',
+    campaignDescription:
+      "To mark three years of Kesher Israel, we're raising funds to donate a Sefer Torah to a religious army base, and we'll invite the soldiers there to celebrate with us.",
+    countdownBeforeTitle: 'The campaign opens in',
+    countdownActiveTitle: 'Time left to donate',
+    countdownClosedTitle: 'This campaign is now closed',
+    countdownBeforeNote: "Come back when the countdown ends — that's when donations open.",
+    countdownClosedNote: 'Thank you to everyone who donated. Follow us for the next project.',
+    countdownDays: 'Days',
+    countdownHours: 'Hours',
+    countdownMinutes: 'Min',
+    countdownSeconds: 'Sec',
   },
   es: {
     title: 'Kesher Israel',
@@ -49,6 +64,21 @@ export const translations = {
     statCountriesLabel: 'Países donantes',
     statRaisedLabel: 'Recaudado y entregado',
     statHelpedLabel: 'Personas ayudadas',
+
+    // Campaign / countdown
+    campaignEyebrow: 'Especial 3er aniversario',
+    campaignTitle: 'Un Sefer Torá para una base militar religiosa',
+    campaignDescription:
+      'Para celebrar tres años de Kesher Israel, estamos recolectando fondos para donar un Sefer Torá a una base militar religiosa, e invitaremos a los soldados a celebrarlo con nosotros.',
+    countdownBeforeTitle: 'La recolecta abre en',
+    countdownActiveTitle: 'Tiempo restante para donar',
+    countdownClosedTitle: 'Esta recolecta ya cerró',
+    countdownBeforeNote: 'Vuelve cuando termine la cuenta regresiva — ahí abren las donaciones.',
+    countdownClosedNote: 'Gracias a todos los que donaron. Síguenos para el próximo proyecto.',
+    countdownDays: 'Días',
+    countdownHours: 'Horas',
+    countdownMinutes: 'Min',
+    countdownSeconds: 'Seg',
   },
 }
 

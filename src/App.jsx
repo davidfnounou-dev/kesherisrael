@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { translations } from './translations'
 import Hero from './components/Hero'
+import Campaign from './components/Campaign'
 
 function App() {
   const [lang, setLang] = useState('es')
@@ -25,6 +26,7 @@ function App() {
         </button>
       </div>
       <Hero lang={lang} t={t} />
+      <Campaign t={t} />
     </div>
   )
 }
