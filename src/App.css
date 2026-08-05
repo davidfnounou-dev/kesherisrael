@@ -1,15 +1,13 @@
 .app {
   position: relative;
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 4rem 1.5rem;
-  text-align: center;
+  width: 100%;
 }
 
 .lang-switcher {
   position: absolute;
-  top: 1rem;
+  top: 1.25rem;
   right: 1.5rem;
+  z-index: 10;
   display: flex;
   align-items: center;
   gap: 0.4rem;
@@ -20,24 +18,180 @@
   border: none;
   cursor: pointer;
   font-size: 0.9rem;
-  color: #999;
+  color: rgba(255, 255, 255, 0.6);
   padding: 0.25rem 0.4rem;
 }
 
 .lang-btn.active {
-  color: #213547;
+  color: #ffffff;
   font-weight: 600;
 }
 
 .lang-divider {
-  color: #ccc;
+  color: rgba(255, 255, 255, 0.35);
 }
 
-.app h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+/* Hero */
+.hero {
+  background: linear-gradient(180deg, var(--navy-dark) 0%, var(--navy) 55%, var(--blue) 100%);
+  color: var(--white);
+  padding: 5rem 1.5rem 3rem;
+  text-align: center;
 }
 
-.app p {
-  color: #666;
+.hero-intro {
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+}
+
+.hero-eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sky);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.hero-tagline {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 1.1;
+  margin: 0 0 1.25rem;
+  font-weight: 800;
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 auto 2rem;
+  max-width: 620px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background: var(--sky);
+  color: var(--navy-dark);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--white);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Map block */
+.hero-map-block {
+  max-width: 900px;
+  margin: 0 auto 2.5rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 2rem 1.5rem 1rem;
+}
+
+.hero-map-title {
+  font-size: 1.4rem;
+  margin: 0 0 0.4rem;
+}
+
+.hero-map-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  margin: 0 0 1.5rem;
+}
+
+.world-map {
+  width: 100%;
+}
+
+.world-map-country {
+  fill: #123a63;
+  stroke: #0a2a52;
+  stroke-width: 0.5;
+  outline: none;
+}
+
+.world-map-marker {
+  fill: var(--sky);
+  stroke: var(--navy-dark);
+  stroke-width: 1;
+}
+
+.world-map-marker-destination {
+  fill: #ffffff;
+  stroke: var(--sky);
+  stroke-width: 2;
+}
+
+.world-map-marker-label {
+  font-size: 9px;
+  fill: #ffffff;
+  font-weight: 600;
+  paint-order: stroke;
+  stroke: var(--navy-dark);
+  stroke-width: 2px;
+}
+
+.world-map-marker-label-destination {
+  font-size: 11px;
+  fill: var(--sky);
+}
+
+/* Stats */
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero-stat {
+  flex: 1 1 150px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 1.25rem 1rem;
+}
+
+.hero-stat-value {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--sky);
+}
+
+.hero-stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 4rem;
+  }
 }
