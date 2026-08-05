@@ -290,3 +290,132 @@
 .countdown-closed {
   background: #2b3b4d;
 }
+
+/* Donate section */
+.donate {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 5rem;
+  text-align: center;
+}
+
+.donate-title {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  margin: 0 0 0.5rem;
+  color: var(--navy);
+}
+
+.donate-subtitle {
+  color: #4a5a6a;
+  margin: 0 0 2.5rem;
+}
+
+.donate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+.donate-card {
+  background: var(--light-blue);
+  border: 1px solid rgba(10, 42, 82, 0.08);
+  border-radius: 18px;
+  padding: 1.75rem;
+}
+
+.donate-card-title {
+  font-size: 1.1rem;
+  color: var(--navy);
+  margin: 0 0 1rem;
+}
+
+.donate-qr-placeholder {
+  width: 96px;
+  height: 96px;
+  border: 2px dashed rgba(10, 42, 82, 0.25);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(10, 42, 82, 0.4);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.donate-qr-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  border: 1px solid rgba(10, 42, 82, 0.1);
+  margin-bottom: 1rem;
+  background: #ffffff;
+  padding: 6px;
+}
+
+.donate-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0 0 0.5rem;
+}
+
+.donate-instructions {
+  color: #4a5a6a;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.donate-instructions-muted {
+  color: #8a97a6;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+.donate-details {
+  margin: 0;
+}
+
+.donate-detail-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(10, 42, 82, 0.08);
+}
+
+.donate-detail-row:last-child {
+  border-bottom: none;
+}
+
+.donate-detail-row dt {
+  color: #6b7a8a;
+  font-size: 0.85rem;
+}
+
+.donate-detail-row dd {
+  margin: 0;
+  font-weight: 700;
+  color: var(--navy);
+  text-align: right;
+}
+
+.donate-proof {
+  background: var(--navy);
+  border-radius: 18px;
+  padding: 2rem 1.5rem;
+  color: var(--white);
+}
+
+.donate-proof-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.donate-proof-text {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 1.25rem;
+}

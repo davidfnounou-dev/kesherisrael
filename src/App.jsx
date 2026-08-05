@@ -3,6 +3,7 @@ import './App.css'
 import { translations } from './translations'
 import Hero from './components/Hero'
 import Campaign from './components/Campaign'
+import Donate from './components/Donate'
 
 function App() {
   const [lang, setLang] = useState('es')
@@ -27,6 +28,7 @@ function App() {
       </div>
       <Hero lang={lang} t={t} />
       <Campaign t={t} />
+      <Donate lang={lang} t={t} />
     </div>
   )
 }

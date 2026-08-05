@@ -40,6 +40,22 @@ export const translations = {
     countdownHours: 'Hours',
     countdownMinutes: 'Min',
     countdownSeconds: 'Sec',
+
+    // Donate section
+    donateTitle: 'How to donate',
+    donateSubtitle: 'Every donation goes directly to soldiers, wounded veterans, and families in Israel.',
+    donateYappyLabel: 'Yappy (Panama)',
+    donateYappyInstructions: 'Send your donation to this number via the Yappy app.',
+    donateYappyQrPending: 'QR code coming soon — for now, send to the number above.',
+    donateAchLabel: 'Bank transfer (ACH)',
+    donateAchBankField: 'Bank',
+    donateAchTypeField: 'Account type',
+    donateAchNumberField: 'Account number',
+    donateAchHolderField: 'Account holder',
+    donateAchType: 'Savings account',
+    donateProofTitle: 'Already donated?',
+    donateProofText: 'Send us your proof of payment so we can confirm it and send you a thank-you receipt.',
+    donateProofButton: 'Send proof via WhatsApp',
   },
   es: {
     title: 'Kesher Israel',
@@ -79,6 +95,22 @@ export const translations = {
     countdownHours: 'Horas',
     countdownMinutes: 'Min',
     countdownSeconds: 'Seg',
+
+    // Donate section
+    donateTitle: 'Cómo donar',
+    donateSubtitle: 'Cada donación llega directo a soldados, heridos y familias en Israel.',
+    donateYappyLabel: 'Yappy (Panamá)',
+    donateYappyInstructions: 'Envía tu donación a este número desde la app de Yappy.',
+    donateYappyQrPending: 'Código QR próximamente — por ahora, envía al número de arriba.',
+    donateAchLabel: 'Transferencia bancaria (ACH)',
+    donateAchBankField: 'Banco',
+    donateAchTypeField: 'Tipo de cuenta',
+    donateAchNumberField: 'Número de cuenta',
+    donateAchHolderField: 'Titular',
+    donateAchType: 'Cuenta de ahorros',
+    donateProofTitle: '¿Ya donaste?',
+    donateProofText: 'Envíanos tu comprobante de pago para confirmarlo y mandarte un agradecimiento.',
+    donateProofButton: 'Enviar comprobante por WhatsApp',
   },
 }
 
