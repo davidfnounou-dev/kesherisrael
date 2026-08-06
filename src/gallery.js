@@ -11,7 +11,7 @@ export const gallery = [
   { file: 'logro-11.jpg', year: 2024, es: 'Hanukkah: Entrega de kit de Januka y cajas de Sufganiot', en: 'Hanukkah: Delivering Hanukkah kits and boxes of Sufganiot' },
   { file: 'logro-14.jpg', year: 2024, es: 'Hanukkah: Soldados dentro de Gaza prendiendo la Janukiá', en: 'Hanukkah: Soldiers inside Gaza lighting the Hanukkiah' },
   { file: 'logro-17.jpg', year: 2025, es: 'Pesaj: Entrega de vinos finos y copas para el Séder, junto a un cupón para comprar comida en el supermercado, a reservistas y soldados de vacaciones', en: 'Pesach: Delivering fine wines and cups for the Seder, along with a supermarket food voucher, to reservists and soldiers on leave' },
-  { file: 'logro-18.jpg', year: 2025, es: 'Hanukkah: Soldados recibiendo janukiot dentro de Gaza', en: 'Hanukkah: Soldiers receiving hanukkiot inside Gaza' },
+  { file: 'logro-18.jpg', year: 2025, es: 'Pesaj: Soldados recibiendo kit con todo lo necesario para cumplir con el Séder de Pesaj en medio de la guerra', en: 'Pesach: Soldiers receiving a kit with everything needed for the Pesach Seder in the middle of the war' },
   { file: 'logro-20.jpg', year: 2025, es: 'Hanukkah: Entregando janukiot a los soldados junto con cajas de Sufganiot', en: 'Hanukkah: Delivering hanukkiot to soldiers along with boxes of Sufganiot' },
   { file: 'logro-22.jpg', year: 2025, es: 'Sukkot: Entrega de Arbaat HaMinim al ministro de defensa Israel Katz', en: 'Sukkot: Delivering Arbaat HaMinim to Defense Minister Israel Katz' },
   { file: 'logro-23.jpg', year: 2024, es: 'Sukkot: Soldados en camino a la guerra con los Arbaat HaMinim en la maleta', en: 'Sukkot: Soldiers heading to war with the Arbaat HaMinim in their bags' },
