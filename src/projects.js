@@ -24,9 +24,8 @@ export const pastProjects = [
       'Sukot',
       'Hanukkah',
       'Kits de Shabbat',
-      "Cenas de Rosh Jodesh y Yom Ha'atzmaut",
+      'Cenas de Rosh Jodesh',
       'Apoyo a rehabilitación',
-      'Cupones de supermercado',
     ],
     en: [
       'Purim',
@@ -34,14 +33,13 @@ export const pastProjects = [
       'Sukkot',
       'Hanukkah',
       'Shabbat kits',
-      'Rosh Chodesh and Yom Ha\'atzmaut dinners',
+      'Rosh Chodesh dinners',
       'Rehabilitation support',
-      'Supermarket vouchers',
     ],
   },
   {
     year: 2026,
-    es: ['Purim', 'Pesach'],
-    en: ['Purim', 'Pesach'],
+    es: ['Purim', 'Pesach', 'Cupones de supermercado', "Cenas de Yom Ha'atzmaut"],
+    en: ['Purim', 'Pesach', 'Supermarket vouchers', "Yom Ha'atzmaut dinners"],
   },
 ]
