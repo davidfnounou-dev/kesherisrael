@@ -59,6 +59,23 @@ export const translations = {
     donateCopyPhone: 'Copy Yappy number',
     donateCopyAch: 'Copy bank details',
     donateCopied: 'Copied ✓',
+
+    // Nav
+    navToggleLabel: 'Open menu',
+    navDonate: 'Donate now',
+    navStory: 'Our story',
+    navPastProjects: 'Past projects',
+    navFutureProjects: 'Future projects',
+
+    // About
+    aboutEyebrow: 'About us',
+    aboutTitle: 'Our story',
+    aboutText:
+      "Kesher Israel was founded in 2023 by David Fnounou and Yosi Duer, after the events of October 7th. We saw so many families and soldiers affected, and decided that posting about it online wasn't enough — it was time to go from words to action. Since then we've raised donations across Panama, Brazil, Argentina, Mexico, Venezuela, and the United States, and delivered them directly to soldiers, wounded veterans, and families in Israel: kits to fulfill mitzvot, Shabbat and holiday meals, hospital and rehabilitation support, and help for families who lost everything.",
+
+    // Past projects
+    pastProjectsEyebrow: 'Three years of action',
+    pastProjectsTitle: 'Past projects',
   },
   es: {
     title: 'Kesher Israel',
@@ -117,6 +134,23 @@ export const translations = {
     donateCopyPhone: 'Copiar número de Yappy',
     donateCopyAch: 'Copiar datos bancarios',
     donateCopied: 'Copiado ✓',
+
+    // Nav
+    navToggleLabel: 'Abrir menú',
+    navDonate: 'Donar ahora',
+    navStory: 'Conoce nuestra historia',
+    navPastProjects: 'Proyectos viejos',
+    navFutureProjects: 'Futuros proyectos',
+
+    // About
+    aboutEyebrow: 'Sobre nosotros',
+    aboutTitle: 'Nuestra historia',
+    aboutText:
+      'Kesher Israel fue fundada en 2023 por David Fnounou y Yosi Duer, después de los hechos del 7 de octubre. Vimos a tantas familias y soldados afectados, y decidimos que opinar en redes no bastaba — había que pasar de las palabras a la acción. Desde entonces hemos recolectado donaciones en Panamá, Brasil, Argentina, México, Venezuela y Estados Unidos, y las hemos entregado directamente a soldados, heridos y familias en Israel: kits para cumplir mitzvot, comidas de Shabbat y festividades, apoyo en hospitales y rehabilitación, y ayuda a familias que lo perdieron todo.',
+
+    // Past projects
+    pastProjectsEyebrow: 'Tres años de acción',
+    pastProjectsTitle: 'Proyectos viejos',
   },
 }
 
