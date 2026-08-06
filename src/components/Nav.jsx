@@ -6,7 +6,7 @@ function Nav({ t }) {
   const links = [
     { href: '#donar', label: t.navDonate },
     { href: '#nosotros', label: t.navStory },
-    { href: '#proyectos-pasados', label: t.navPastProjects },
+    { href: '#logros', label: t.navPastProjects },
     { href: '#campana', label: t.navFutureProjects },
   ]
 
